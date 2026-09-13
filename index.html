@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jose Alberto Bertel Martinez · Ingeniero de Sistemas</title>
+<meta name="description" content="Portafolio de Jose Alberto Bertel Martinez, ingeniero de sistemas especializado en backend, bases de datos y buenas practicas de desarrollo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./src/styles.css">
+<link rel="stylesheet" href="./dist/output.css">
+</head>
+<body>
+
+<div class="blueprint-bg" aria-hidden="true"></div>
+
+<header class="nav">
+  <a href="#inicio" class="nav-mark"><span class="dot"></span>J. BERTEL</a>
+  <nav class="links" id="navLinks">
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#trayectoria">Trayectoria</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <button class="burger" id="burgerBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+    <span></span><span></span><span></span>
+  </button>
+  <button class="motion-toggle" id="motionToggle" type="button" aria-pressed="false" aria-label="Activar animaciones">
+    <span aria-hidden="true">✦</span>
+    <span class="motion-label">Movimiento</span>
+  </button>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="wrap hero-grid">
+    <div class="reveal in">
+      <span class="tag">Disponible para nuevos proyectos</span>
+      <h1>Jose Alberto Bertel Martinez</h1>
+      <p class="role">Ingeniero de sistemas · desarrollador backend</p>
+      <p class="lead">
+        Diseño y construyo sistemas backend confiables: APIs con PHP y Laravel,
+        modelos de datos relacionales bien pensados y la lógica que conecta todo,
+        del servidor a la interfaz.
+      </p>
+      <div class="hero-cta">
+        <a href="#habilidades" class="btn btn-solid">Ver habilidades</a>
+        <a href="#contacto" class="btn btn-outline">Hablemos</a>
+      </div>
+      <div class="hero-meta">
+        <div><strong>+5</strong>lenguajes y frameworks</div>
+        <div><strong>MySQL</strong>base de datos principal</div>
+        <div><strong>Full-stack</strong>enfoque de trabajo</div>
+      </div>
+    </div>
+
+    <div class="frame-wrap reveal in">
+      <span class="corner tl"></span>
+      <span class="corner tr"></span>
+      <span class="corner bl"></span>
+      <span class="corner br"></span>
+      <img
+        class="frame-photo"
+        src="recursos/JoseBertel.png"
+        alt="Foto de Jose Alberto Bertel Martinez"
+        draggable="false"
+        onerror="this.onerror=null;this.src='recursos/avatar-placeholder.svg';"
+      >
+    </div>
+  </div>
+</section>
+
+<section id="sobre-mi" class="section-about">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Sobre mí</h2>
+      <span class="idx mono">01</span>
+    </div>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>
+          Soy ingeniero de sistemas graduado de CECAR el 03/08/2026, con un
+          interés especial por construir software claro, mantenible y preparado
+          para crecer. Trabajo principalmente con PHP y Laravel, y complemento
+          ese trabajo con Python, JavaScript y TypeScript.
+        </p>
+        <p class="about-detail">
+          Para mí, las buenas prácticas no son un adorno: permiten entender el
+          código, detectar errores antes y trabajar mejor en equipo. Por eso
+          cuido los fundamentos, desde una base de datos normalizada y segura
+          hasta nombres claros, responsabilidades bien separadas y pruebas que
+          den confianza para cambiar el sistema.
+        </p>
+      </div>
+      <dl class="spec-sheet reveal">
+        <div class="spec-row"><dt>ROL</dt><dd>Ingeniero de Sistemas</dd></div>
+        <div class="spec-row"><dt>ENFOQUE</dt><dd>Backend y bases de datos</dd></div>
+        <div class="spec-row"><dt>STACK PRINCIPAL</dt><dd>PHP, Laravel, MySQL</dd></div>
+        <div class="spec-row"><dt>TAMBIÉN TRABAJO CON</dt><dd>Python, TypeScript</dd></div>
+        <div class="spec-row"><dt>FORMACIÓN</dt><dd>CECAR · 03/08/2026</dd></div>
+        <div class="spec-row"><dt>UBICACIÓN</dt><dd>Colombia</dd></div>
+        <div class="spec-row"><dt>DISPONIBILIDAD</dt><dd>Abierto a proyectos</dd></div>
+      </dl>
+    </div>
+    <div class="practice-note reveal">
+      <div>
+        <span class="practice-kicker mono">CRITERIO DE INGENIERÍA</span>
+        <h3>Construir bien desde la base</h3>
+      </div>
+      <div class="principles-grid">
+        <div><strong>Buenas prácticas</strong><span>Código legible, consistente y fácil de mantener.</span></div>
+        <div><strong>Fundamentos</strong><span>Datos, seguridad y arquitectura antes que parches.</span></div>
+        <div><strong>SOLID</strong><span>Responsabilidades claras y componentes abiertos al cambio.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="habilidades" class="section-skills">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Habilidades técnicas</h2>
+      <span class="idx mono">02</span>
+    </div>
+
+    <div class="skills-list">
+
+      <div class="skill-row reveal">
+        <div class="skill-top">
+          <span class="skill-name">PHP</span>
+          <span class="skill-value mono"><span class="counter">0</span>%</span>
+        </div>
+        <div class="gauge"><div class="gauge-fill" data-target="90"></div></div>
+        <div class="skill-caption">Lógica de servidor, APIs y estructuras orientadas a objetos</div>
+      </div>
+
+      <div class="skill-row reveal">
+        <div class="skill-top">
+          <span class="skill-name">Laravel</span>
+          <span class="skill-value mono"><span class="counter">0</span>%</span>
+        </div>
+        <div class="gauge"><div class="gauge-fill" data-target="88"></div></div>
+        <div class="skill-caption">Eloquent, rutas, migraciones y arquitectura MVC</div>
+      </div>
+
+      <div class="skill-row reveal">
+        <div class="skill-top">
+          <span class="skill-name">Bases de datos relacionales (MySQL)</span>
+          <span class="skill-value mono"><span class="counter">0</span>%</span>
+        </div>
+        <div class="gauge"><div class="gauge-fill" data-target="92"></div></div>
+        <div class="skill-caption">Modelado, normalización, consultas e índices</div>
+      </div>
+
+      <div class="skill-row reveal">
+        <div class="skill-top">
+          <span class="skill-name">HTML</span>
+          <span class="skill-value mono"><span class="counter">0</span>%</span>
+        </div>
+        <div class="gauge"><div class="gauge-fill" data-target="95"></div></div>
+        <div class="skill-caption">Estructura semántica y accesible</div>
+      </div>
+
+      <div class="skill-row reveal">
+        <div class="skill-top">
+          <span class="skill-name">CSS</span>
+          <span class="skill-value mono"><span class="counter">0</span>%</span>
+        </div>
+        <div class="gauge"><div class="gauge-fill" data-target="85"></div></div>
+        <div class="skill-caption">Layouts responsivos, animaciones y diseño de interfaz</div>
+      </div>
+
+      <div class="skill-row reveal">
+        <div class="skill-top">
+          <span class="skill-name">JavaScript</span>
+          <span class="skill-value mono"><span class="counter">0</span>%</span>
+        </div>
+        <div class="gauge"><div class="gauge-fill" data-target="80"></div></div>
+        <div class="skill-caption">Interactividad, DOM y consumo de APIs</div>
+      </div>
+
+      <div class="skill-row reveal">
+        <div class="skill-top">
+          <span class="skill-name">Python</span>
+          <span class="skill-value mono"><span class="counter">0</span>%</span>
+        </div>
+        <div class="gauge"><div class="gauge-fill" data-target="75"></div></div>
+        <div class="skill-caption">Scripts, automatización y procesamiento de datos</div>
+      </div>
+
+      <div class="skill-row reveal">
+        <div class="skill-top">
+          <span class="skill-name">TypeScript</span>
+          <span class="skill-value mono"><span class="counter">0</span>%</span>
+        </div>
+        <div class="gauge"><div class="gauge-fill" data-target="70"></div></div>
+        <div class="skill-caption">Tipado estático para código frontend más seguro</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="proyectos" class="section-projects">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Proyectos</h2>
+      <span class="idx mono">03</span>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <h3>Rutyco</h3>
+        <p>Web corporativa y landing page pública para una plataforma tecnológica de movilidad, orientada al marketing y la adquisición de usuarios.</p>
+        <p>Incluye soporte para los perfiles de usuario y conductor, contenido dinámico para noticias y blog, experiencia bilingüe y un panel de gestión de contenidos.</p>
+        <div class="stackline">
+          <span class="chip">Web pública</span>
+          <span class="chip">Bilingüe</span>
+          <span class="chip">CMS</span>
+        </div>
+        <a href="https://rutyco.com/" target="_blank" rel="noopener noreferrer">Visitar sitio web ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="trayectoria" class="section-journey">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Trayectoria</h2>
+      <span class="idx mono">04</span>
+    </div>
+    <div class="timeline">
+      <div class="tl-item reveal" data-n="1">
+        <span class="tl-year mono">Formación</span>
+        <h3>Ingeniería de Sistemas · CECAR</h3>
+        <p>Formación en fundamentos de programación, bases de datos y arquitectura de software. Graduado el 03/08/2026.</p>
+      </div>
+      <div class="tl-item reveal" data-n="2">
+        <span class="tl-year mono">Backend</span>
+        <h3>PHP y bases de datos relacionales</h3>
+        <p>Primeros proyectos construyendo lógica de servidor y modelando datos en MySQL.</p>
+      </div>
+      <div class="tl-item reveal" data-n="3">
+        <span class="tl-year mono">Framework</span>
+        <h3>Adopción de Laravel</h3>
+        <p>Migración a Laravel para estructurar proyectos backend de forma más ordenada y escalable.</p>
+      </div>
+      <div class="tl-item reveal" data-n="4">
+        <span class="tl-year mono">Frontend</span>
+        <h3>JavaScript, TypeScript y buenas prácticas</h3>
+        <p>Incorporación de tipado estático y una interfaz más cuidada del lado del cliente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="section-contact">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Contacto</h2>
+      <span class="idx mono">05</span>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-list reveal">
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg>
+          <span><span class="label">CORREO</span><strong>josebertel2004@gmail.com</strong></span>
+        </div>
+        <a class="contact-item" href="tel:+573046252249">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2C9.5 21 3 14.5 3 6a2 2 0 0 1 1-2z"/></svg>
+          <span><span class="label">TELÉFONO / WHATSAPP</span><strong>+57 304 625 2249</strong></span>
+        </a>
+        <a class="contact-item" href="https://github.com/Jose-Bertel" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.6 9.6 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .26.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+          <span><span class="label">GITHUB</span><strong>github.com/Jose-Bertel</strong></span>
+        </a>
+        <a class="contact-item" href="https://www.linkedin.com/in/jose-alberto-bertel-martinez-015432389" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M11 17v-4.5a2.5 2.5 0 0 1 5 0V17M11 10v7"/></svg>
+          <span><span class="label">LINKEDIN</span><strong>linkedin.com/in/jose-alberto-bertel-martinez-015432389</strong></span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Jose Alberto Bertel Martinez — Ingeniero de Sistemas
+</footer>
+
+<script src="./node_modules/gsap/dist/gsap.min.js"></script>
+<script src="./src/main.js"></script>
+
+</body>
+</html>
